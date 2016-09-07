@@ -12,13 +12,27 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
+nav ul li2, footer ul li2 {
+    margin-right: 20px;
+}
+
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
+nav ul li2 a {
+    padding-left: 4em;
+    color: #006064;
+    display: block;
+    width: 50 px;
+}
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -44,6 +58,10 @@ ul.posts {
 }
 
 ul.posts li {
+    list-style: none;
+}
+
+ul.posts li2 {
     list-style: none;
 }
 
